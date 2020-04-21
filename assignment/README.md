@@ -3,7 +3,7 @@
 
 ## extra information
 
-eerste oefening: </br>
+### eerste oefening:
 rotary encoder van de EAICTPCB gebruiken </br>
 vhdl code schrijven </br>
 AXI IP blok van maken </br>
