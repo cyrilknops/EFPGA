@@ -1,0 +1,3 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/OEF2_LEDMATRIX_COUNTDOWN/OEF2_LED_COUNTDOWN/OEF2_LED_COUNTDOWN.sim/sim_1/impl/timing/xsim/OEF2_LED_COUNTDOWN_time_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OEF2_LED_COUNTDOWN
+INFO: [VRFC 10-311] analyzing module glbl

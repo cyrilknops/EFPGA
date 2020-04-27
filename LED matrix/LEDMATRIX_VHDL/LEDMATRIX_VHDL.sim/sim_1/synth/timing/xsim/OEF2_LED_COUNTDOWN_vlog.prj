@@ -1,0 +1,6 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"OEF2_LED_COUNTDOWN_time_synth.v" \
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Webtalk v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Fri Apr 24 16:56:33 2020
+# Process ID: 15448
+# Current directory: C:/OEF2_LEDMATRIX_COUNTDOWN/OEF2_LED_COUNTDOWN/OEF2_LED_COUNTDOWN.sim/sim_1/synth/timing/xsim
+# Command line: wbtcv.exe -mode batch -source C:/OEF2_LEDMATRIX_COUNTDOWN/OEF2_LED_COUNTDOWN/OEF2_LED_COUNTDOWN.sim/sim_1/synth/timing/xsim/xsim.dir/OEF2_LED_COUNTDOWN_time_synth/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/OEF2_LEDMATRIX_COUNTDOWN/OEF2_LED_COUNTDOWN/OEF2_LED_COUNTDOWN.sim/sim_1/synth/timing/xsim/webtalk.log
+# Journal file: C:/OEF2_LEDMATRIX_COUNTDOWN/OEF2_LED_COUNTDOWN/OEF2_LED_COUNTDOWN.sim/sim_1/synth/timing/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/OEF2_LEDMATRIX_COUNTDOWN/OEF2_LED_COUNTDOWN/OEF2_LED_COUNTDOWN.sim/sim_1/synth/timing/xsim/xsim.dir/OEF2_LED_COUNTDOWN_time_synth/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/OEF2_LEDMATRIX_COUNTDOWN/OEF2_LED_COUNTDOWN/OEF2_LED_COUNTDOWN.sim/sim_1/synth/timing/xsim/xsim.dir/OEF2_LED_COUNTDOWN_time_synth/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Fri Apr 24 16:56:38 2020. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2019.2/doc/webtalk_introduction.html.
+webtalk_transmit: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 109.867 ; gain = 17.520
+INFO: [Common 17-206] Exiting Webtalk at Fri Apr 24 16:56:38 2020...
