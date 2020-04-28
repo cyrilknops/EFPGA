@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Tue Apr 28 09:29:03 2020
+# Process ID: 9908
+# Current directory: D:/School/FPGA/EOS-master/EOS-master/IP_REPO/MATRIX_IP
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19812 D:\School\FPGA\EOS-master\EOS-master\IP_REPO\MATRIX_IP\edit_matrix_v1_0.xpr
+# Log file: D:/School/FPGA/EOS-master/EOS-master/IP_REPO/MATRIX_IP/vivado.log
+# Journal file: D:/School/FPGA/EOS-master/EOS-master/IP_REPO/MATRIX_IP\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/School/FPGA/EOS-master/EOS-master/IP_REPO/MATRIX_IP/edit_matrix_v1_0.xpr
