@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER MATRIX_IPBLOK_DEF
+	OPTION supported_peripherals = (MATRIX_IPBLOK_DEF);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = MATRIX_IPBLOK_DEF;
+END DRIVER

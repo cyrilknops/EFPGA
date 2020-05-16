@@ -1,0 +1,6 @@
+set_property PACKAGE_PIN P14 [get_ports ds_0]
+set_property PACKAGE_PIN N11 [get_ports sh_cp_0]
+set_property PACKAGE_PIN N12 [get_ports st_cp_0]
+set_property IOSTANDARD LVCMOS33 [get_ports ds_0]
+set_property IOSTANDARD LVCMOS33 [get_ports sh_cp_0]
+set_property IOSTANDARD LVCMOS33 [get_ports st_cp_0]

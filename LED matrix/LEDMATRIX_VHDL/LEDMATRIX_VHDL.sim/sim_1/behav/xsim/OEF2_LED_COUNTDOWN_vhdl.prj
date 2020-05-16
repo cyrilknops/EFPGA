@@ -1,6 +1,0 @@
-# compile vhdl design source files
-vhdl xil_defaultlib  \
-"../../../../OEF2_LED_COUNTDOWN.srcs/sources_1/new/OEF2_LED_COUNTDOWN.vhd" \
-
-# Do not sort compile order
-nosort
