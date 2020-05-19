@@ -1,0 +1,29 @@
+2020-05-19T11:13:20.950950500255-11:13:20 **** Incremental Build of configuration Debug for project LEDMATRIX_GAME ****
+000-make all 
+000-make --no-print-directory pre-build
+000-a9-linaro-pre-build-step
+000-' '
+000-make --no-print-directory main-build
+000-'Building file: ../src/helloworld.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/LEDMATRIX_GAME/LEDMATRIX_PROJECT/VITIS_GAME/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/bspinclude/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+000-../src/helloworld.c: In function 'main':
+000/LEDMATRIX_GAME/src/helloworld.c70-1-1variable 'Status' set but not used [-Wunused-but-set-variable]1-../src/helloworld.c:70:6: warning: variable 'Status' set but not used [-Wunused-but-set-variable]
+000-  int Status;
+000-      ^~~~~~
+000-'Finished building: ../src/helloworld.c'
+000-' '
+000-'Building target: LEDMATRIX_GAME.elf'
+000-'Invoking: ARM v7 gcc linker'
+000-arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LC:/LEDMATRIX_GAME/LEDMATRIX_PROJECT/VITIS_GAME/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/bsplib/lib -o "LEDMATRIX_GAME.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+000-'Finished building target: LEDMATRIX_GAME.elf'
+000-' '
+000-'Invoking: ARM v7 Print Size'
+000-arm-none-eabi-size LEDMATRIX_GAME.elf  |tee "LEDMATRIX_GAME.elf.size"
+000-   text	   data	    bss	    dec	    hex	filename
+000-  63260	   3368	  23360	  89988	  15f84	LEDMATRIX_GAME.elf
+000-'Finished building: LEDMATRIX_GAME.elf.size'
+000-' '
+00255-
+11:13:22 Build Finished (took 1s.893ms)
+

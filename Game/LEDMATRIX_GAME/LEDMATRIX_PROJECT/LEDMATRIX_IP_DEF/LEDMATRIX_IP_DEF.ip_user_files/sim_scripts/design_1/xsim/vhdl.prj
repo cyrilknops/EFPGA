@@ -1,0 +1,13 @@
+vhdl xil_defaultlib  \
+"../../../bd/design_1/ipshared/edit_vhdlnoclk_v1_0.srcs/sources_1/new/vhdlclock.vhd" \
+"../../../bd/design_1/ipshared/5c48/hdl/vhdlnoclk_v1_0_S00_AXI.vhd" \
+"../../../bd/design_1/ipshared/5c48/hdl/vhdlnoclk_v1_0.vhd" \
+"../../../bd/design_1/ip/design_1_vhdlnoclk_0_0/sim/design_1_vhdlnoclk_0_0.vhd" \
+"../../../bd/design_1/ipshared/MATRIX_IPBLOK.vhd" \
+"../../../bd/design_1/ipshared/8ecf/hdl/MATRIX_IPBLOK_DEF_v1_0_S00_AXI.vhd" \
+"../../../bd/design_1/ipshared/8ecf/hdl/MATRIX_IPBLOK_DEF_v1_0.vhd" \
+"../../../bd/design_1/ip/design_1_MATRIX_IPBLOK_DEF_0_0_1/sim/design_1_MATRIX_IPBLOK_DEF_0_0.vhd" \
+"../../../bd/design_1/ip/design_1_rst_ps7_0_50M_0_1/sim/design_1_rst_ps7_0_50M_0.vhd" \
+"../../../bd/design_1/sim/design_1.vhd" \
+
+nosort

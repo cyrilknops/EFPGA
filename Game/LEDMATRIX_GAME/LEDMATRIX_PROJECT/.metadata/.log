@@ -1,0 +1,670 @@
+!SESSION 2020-05-16 09:28:26.546 -----------------------------------------------
+eclipse.buildId=2019.2
+java.version=9.0.4
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=nl_BE
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+This is a continuation of log file C:\LEDMATRIX_PROJECT\.metadata\.bak_1.log
+Created Time: 2020-05-16 12:38:53.693
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:38:53.701
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Avnet MiniZed V1 1234-oj1A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:38:53.756
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Avnet MiniZed V1 1234-oj1A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z007s (idcode 13723093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:38:53.772
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Avnet MiniZed V1 1234-oj1A" && level==0} -index 1], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:38:53.836
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Avnet MiniZed V1 1234-oj1A" && level==0} -index 1], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:38:53.846
+!MESSAGE XSCT Command: [fpga -file C:/LEDMATRIX_PROJECT/LEDMATRIX_VITIS/_ide/bitstream/design_1_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:38:55.069
+!MESSAGE XSCT command with result: [fpga -file C:/LEDMATRIX_PROJECT/LEDMATRIX_VITIS/_ide/bitstream/design_1_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:38:55.108
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-82: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:38:55.145
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-82: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:38:55.155
+!MESSAGE XSCT Command: [loadhw -hw C:/LEDMATRIX_PROJECT/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]], Thread: Worker-82: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:39:01.091
+!MESSAGE XSCT command with result: [loadhw -hw C:/LEDMATRIX_PROJECT/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]], Result: [null, design_1_wrapper_72]. Thread: Worker-82: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:39:01.109
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-82: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:39:01.120
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-82: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:39:01.130
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-82: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:39:01.158
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-82: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:39:01.168
+!MESSAGE XSCT Command: [source C:/LEDMATRIX_PROJECT/LEDMATRIX_VITIS/_ide/psinit/ps7_init.tcl], Thread: Worker-82: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:39:01.181
+!MESSAGE XSCT command with result: [source C:/LEDMATRIX_PROJECT/LEDMATRIX_VITIS/_ide/psinit/ps7_init.tcl], Result: [null, ]. Thread: Worker-82: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:39:01.190
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-82: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:39:01.755
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-82: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:39:01.764
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-82: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:39:01.786
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-82: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:39:01.796
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-82: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:39:01.825
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-82: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:39:01.836
+!MESSAGE XSCT Command: [dow C:/LEDMATRIX_PROJECT/LEDMATRIX_VITIS/Debug/LEDMATRIX_VITIS.elf], Thread: Worker-82: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:39:02.213
+!MESSAGE XSCT command with result: [dow C:/LEDMATRIX_PROJECT/LEDMATRIX_VITIS/Debug/LEDMATRIX_VITIS.elf], Result: [null, ]. Thread: Worker-82: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:39:02.223
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-82: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:39:02.257
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-82: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:39:02.349
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-82: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:39:02.454
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-82: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:39:02.464
+!MESSAGE XSCT Command: [con], Thread: Worker-82: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:39:02.525
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-82: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-05-16 12:39:02.537
+!MESSAGE Tool usage for 'TCF_APP_DEBUG' updated to '74'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:40:47.558
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/LEDMATRIX_PROJECT/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa C:/LEDMATRIX_PROJECT/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/system.mss ], Thread: Worker-75: Build LEDMATRIX_VITIS
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:40:47.584
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/LEDMATRIX_PROJECT/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa C:/LEDMATRIX_PROJECT/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/system.mss ], Result: [null, ]. Thread: Worker-75: Build LEDMATRIX_VITIS
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:40:47.595
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/LEDMATRIX_PROJECT/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa C:/LEDMATRIX_PROJECT/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/system.mss], Thread: Worker-75: Build LEDMATRIX_VITIS
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:40:47.611
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/LEDMATRIX_PROJECT/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa C:/LEDMATRIX_PROJECT/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "7.1",
+}]. Thread: Worker-75: Build LEDMATRIX_VITIS
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-05-16 12:40:47.622
+!MESSAGE Generating MD5 hash for file: C:\LEDMATRIX_PROJECT\design_1_wrapper\export\design_1_wrapper\sw\design_1_wrapper\standalone_domain\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:40:47.636
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/LEDMATRIX_PROJECT/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/system.mss], Thread: Worker-75: Build LEDMATRIX_VITIS
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:40:47.654
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/LEDMATRIX_PROJECT/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/system.mss], Result: [null, ]. Thread: Worker-75: Build LEDMATRIX_VITIS
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:41:07.848
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/LEDMATRIX_PROJECT/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa C:/LEDMATRIX_PROJECT/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/system.mss ], Thread: Worker-84: Build LEDMATRIX_VITIS
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:41:07.875
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/LEDMATRIX_PROJECT/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa C:/LEDMATRIX_PROJECT/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/system.mss ], Result: [null, ]. Thread: Worker-84: Build LEDMATRIX_VITIS
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:41:07.892
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/LEDMATRIX_PROJECT/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa C:/LEDMATRIX_PROJECT/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/system.mss], Thread: Worker-84: Build LEDMATRIX_VITIS
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:41:07.911
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/LEDMATRIX_PROJECT/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa C:/LEDMATRIX_PROJECT/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "7.1",
+}]. Thread: Worker-84: Build LEDMATRIX_VITIS
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-05-16 12:41:07.923
+!MESSAGE Generating MD5 hash for file: C:\LEDMATRIX_PROJECT\design_1_wrapper\export\design_1_wrapper\sw\design_1_wrapper\standalone_domain\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:41:07.937
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/LEDMATRIX_PROJECT/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/system.mss], Thread: Worker-84: Build LEDMATRIX_VITIS
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:41:07.951
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/LEDMATRIX_PROJECT/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/system.mss], Result: [null, ]. Thread: Worker-84: Build LEDMATRIX_VITIS
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:41:14.208
+!MESSAGE XSCT Command: [disconnect tcfchan#75], Thread: Thread-5256
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:41:14.300
+!MESSAGE XSCT command with result: [disconnect tcfchan#75], Result: [null, ]. Thread: Thread-5256
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:41:15.236
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-81: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:41:15.253
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#76]. Thread: Worker-81: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:41:15.263
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-81: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:41:15.293
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Avnet MiniZed V1 1234-oj1A]. Thread: Worker-81: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:41:15.303
+!MESSAGE XSCT Command: [version -server], Thread: Worker-81: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:41:15.314
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2019.2]. Thread: Worker-81: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:41:15.324
+!MESSAGE XSCT Command: [version], Thread: Worker-81: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:41:15.335
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2019.2
+SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-81: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:41:15.345
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-81: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:41:15.368
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Avnet MiniZed V1 1234-oj1A]. Thread: Worker-81: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:41:15.378
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Avnet MiniZed V1 1234-oj1A" && level==1}], Thread: Worker-81: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:41:15.429
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Avnet MiniZed V1 1234-oj1A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z007s (idcode 13723093 irlen 6 fpga)]. Thread: Worker-81: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:41:15.439
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-81: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:41:15.466
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Avnet MiniZed V1 1234-oj1A]. Thread: Worker-81: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:41:15.479
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Avnet MiniZed V1 1234-oj1A" && level==1}], Thread: Worker-81: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:41:15.529
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Avnet MiniZed V1 1234-oj1A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z007s (idcode 13723093 irlen 6 fpga)]. Thread: Worker-81: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:41:15.539
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-81: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:41:15.562
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Avnet MiniZed V1 1234-oj1A]. Thread: Worker-81: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:41:15.572
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Avnet MiniZed V1 1234-oj1A" && level==1}], Thread: Worker-81: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:41:15.623
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Avnet MiniZed V1 1234-oj1A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z007s (idcode 13723093 irlen 6 fpga)]. Thread: Worker-81: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:41:15.633
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-81: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:41:15.658
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Avnet MiniZed V1 1234-oj1A]. Thread: Worker-81: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:41:15.667
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Avnet MiniZed V1 1234-oj1A" && level==1}], Thread: Worker-81: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:41:15.716
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Avnet MiniZed V1 1234-oj1A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z007s (idcode 13723093 irlen 6 fpga)]. Thread: Worker-81: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:41:15.726
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-81: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:41:15.748
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Avnet MiniZed V1 1234-oj1A]. Thread: Worker-81: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:41:15.757
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Avnet MiniZed V1 1234-oj1A" && level==1}], Thread: Worker-81: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:41:15.807
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Avnet MiniZed V1 1234-oj1A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z007s (idcode 13723093 irlen 6 fpga)]. Thread: Worker-81: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:41:15.816
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-81: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:41:15.839
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Avnet MiniZed V1 1234-oj1A]. Thread: Worker-81: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:41:15.848
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Avnet MiniZed V1 1234-oj1A" && level==1}], Thread: Worker-81: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:41:15.897
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Avnet MiniZed V1 1234-oj1A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z007s (idcode 13723093 irlen 6 fpga)]. Thread: Worker-81: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:41:15.906
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Avnet MiniZed V1 1234-oj1A" && level == 0}], Thread: Worker-81: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:41:15.956
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Avnet MiniZed V1 1234-oj1A" && level == 0}], Result: [null, ]. Thread: Worker-81: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:41:15.966
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-81: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:41:15.976
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-81: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:41:15.986
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-81: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:41:16.026
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-81: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:41:16.036
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-81: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:41:16.121
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-81: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:41:16.133
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-81: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:41:19.144
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-81: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:41:19.190
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:41:19.213
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Avnet MiniZed V1 1234-oj1A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:41:19.223
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Avnet MiniZed V1 1234-oj1A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:41:19.275
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Avnet MiniZed V1 1234-oj1A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z007s (idcode 13723093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:41:19.285
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Avnet MiniZed V1 1234-oj1A" && level==0} -index 1], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:41:19.346
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Avnet MiniZed V1 1234-oj1A" && level==0} -index 1], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:41:19.356
+!MESSAGE XSCT Command: [fpga -file C:/LEDMATRIX_PROJECT/LEDMATRIX_VITIS/_ide/bitstream/design_1_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:41:20.580
+!MESSAGE XSCT command with result: [fpga -file C:/LEDMATRIX_PROJECT/LEDMATRIX_VITIS/_ide/bitstream/design_1_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:41:20.618
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-81: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:41:20.650
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-81: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:41:20.660
+!MESSAGE XSCT Command: [loadhw -hw C:/LEDMATRIX_PROJECT/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]], Thread: Worker-81: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:41:26.904
+!MESSAGE XSCT command with result: [loadhw -hw C:/LEDMATRIX_PROJECT/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]], Result: [null, design_1_wrapper_73]. Thread: Worker-81: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:41:26.914
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-81: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:41:26.926
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-81: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:41:26.937
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-81: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:41:26.965
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-81: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:41:26.975
+!MESSAGE XSCT Command: [source C:/LEDMATRIX_PROJECT/LEDMATRIX_VITIS/_ide/psinit/ps7_init.tcl], Thread: Worker-81: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:41:26.989
+!MESSAGE XSCT command with result: [source C:/LEDMATRIX_PROJECT/LEDMATRIX_VITIS/_ide/psinit/ps7_init.tcl], Result: [null, ]. Thread: Worker-81: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:41:26.998
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-81: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:41:27.556
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-81: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:41:27.565
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-81: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:41:27.589
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-81: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:41:27.600
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-81: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:41:27.628
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-81: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:41:27.639
+!MESSAGE XSCT Command: [dow C:/LEDMATRIX_PROJECT/LEDMATRIX_VITIS/Debug/LEDMATRIX_VITIS.elf], Thread: Worker-81: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:41:27.994
+!MESSAGE XSCT command with result: [dow C:/LEDMATRIX_PROJECT/LEDMATRIX_VITIS/Debug/LEDMATRIX_VITIS.elf], Result: [null, ]. Thread: Worker-81: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:41:28.004
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-81: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:41:28.034
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-81: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:41:28.127
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-81: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:41:28.238
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-81: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:41:28.248
+!MESSAGE XSCT Command: [con], Thread: Worker-81: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:41:28.307
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-81: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-05-16 12:41:28.319
+!MESSAGE Tool usage for 'TCF_APP_DEBUG' updated to '75'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:42:00.729
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/LEDMATRIX_PROJECT/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa C:/LEDMATRIX_PROJECT/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/system.mss ], Thread: Worker-80: Build LEDMATRIX_VITIS
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:42:00.746
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/LEDMATRIX_PROJECT/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa C:/LEDMATRIX_PROJECT/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/system.mss ], Result: [null, ]. Thread: Worker-80: Build LEDMATRIX_VITIS
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:42:00.756
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/LEDMATRIX_PROJECT/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa C:/LEDMATRIX_PROJECT/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/system.mss], Thread: Worker-80: Build LEDMATRIX_VITIS
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:42:00.774
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/LEDMATRIX_PROJECT/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa C:/LEDMATRIX_PROJECT/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "7.1",
+}]. Thread: Worker-80: Build LEDMATRIX_VITIS
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-05-16 12:42:00.785
+!MESSAGE Generating MD5 hash for file: C:\LEDMATRIX_PROJECT\design_1_wrapper\export\design_1_wrapper\sw\design_1_wrapper\standalone_domain\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:42:00.798
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/LEDMATRIX_PROJECT/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/system.mss], Thread: Worker-80: Build LEDMATRIX_VITIS
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:42:00.814
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/LEDMATRIX_PROJECT/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/system.mss], Result: [null, ]. Thread: Worker-80: Build LEDMATRIX_VITIS
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:42:06.347
+!MESSAGE XSCT Command: [disconnect tcfchan#76], Thread: Thread-5322
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:42:06.415
+!MESSAGE XSCT command with result: [disconnect tcfchan#76], Result: [null, ]. Thread: Thread-5322
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:42:07.350
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-84: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:42:07.368
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#77]. Thread: Worker-84: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:42:07.378
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-84: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:42:07.408
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Avnet MiniZed V1 1234-oj1A]. Thread: Worker-84: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:42:07.419
+!MESSAGE XSCT Command: [version -server], Thread: Worker-84: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:42:07.435
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2019.2]. Thread: Worker-84: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:42:07.445
+!MESSAGE XSCT Command: [version], Thread: Worker-84: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:42:07.456
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2019.2
+SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-84: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:42:07.466
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-84: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:42:07.491
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Avnet MiniZed V1 1234-oj1A]. Thread: Worker-84: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:42:07.501
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Avnet MiniZed V1 1234-oj1A" && level==1}], Thread: Worker-84: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:42:07.550
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Avnet MiniZed V1 1234-oj1A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z007s (idcode 13723093 irlen 6 fpga)]. Thread: Worker-84: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:42:07.561
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-84: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:42:07.585
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Avnet MiniZed V1 1234-oj1A]. Thread: Worker-84: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:42:07.594
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Avnet MiniZed V1 1234-oj1A" && level==1}], Thread: Worker-84: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:42:07.648
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Avnet MiniZed V1 1234-oj1A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z007s (idcode 13723093 irlen 6 fpga)]. Thread: Worker-84: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:42:07.658
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-84: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:42:07.684
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Avnet MiniZed V1 1234-oj1A]. Thread: Worker-84: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:42:07.694
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Avnet MiniZed V1 1234-oj1A" && level==1}], Thread: Worker-84: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:42:07.751
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Avnet MiniZed V1 1234-oj1A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z007s (idcode 13723093 irlen 6 fpga)]. Thread: Worker-84: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:42:07.764
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-84: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:42:07.789
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Avnet MiniZed V1 1234-oj1A]. Thread: Worker-84: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:42:07.799
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Avnet MiniZed V1 1234-oj1A" && level==1}], Thread: Worker-84: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:42:07.851
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Avnet MiniZed V1 1234-oj1A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z007s (idcode 13723093 irlen 6 fpga)]. Thread: Worker-84: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:42:07.861
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-84: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:42:07.883
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Avnet MiniZed V1 1234-oj1A]. Thread: Worker-84: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:42:07.893
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Avnet MiniZed V1 1234-oj1A" && level==1}], Thread: Worker-84: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:42:07.941
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Avnet MiniZed V1 1234-oj1A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z007s (idcode 13723093 irlen 6 fpga)]. Thread: Worker-84: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:42:07.951
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-84: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:42:07.973
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Avnet MiniZed V1 1234-oj1A]. Thread: Worker-84: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:42:07.982
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Avnet MiniZed V1 1234-oj1A" && level==1}], Thread: Worker-84: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:42:08.038
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Avnet MiniZed V1 1234-oj1A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z007s (idcode 13723093 irlen 6 fpga)]. Thread: Worker-84: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:42:08.047
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Avnet MiniZed V1 1234-oj1A" && level == 0}], Thread: Worker-84: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:42:08.098
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Avnet MiniZed V1 1234-oj1A" && level == 0}], Result: [null, ]. Thread: Worker-84: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:42:08.109
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-84: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:42:08.120
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-84: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:42:08.130
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-84: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:42:08.175
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-84: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:42:08.188
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-84: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:42:08.272
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-84: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:42:08.282
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-84: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:42:11.292
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-84: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:42:11.328
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:42:11.350
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Avnet MiniZed V1 1234-oj1A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:42:11.360
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Avnet MiniZed V1 1234-oj1A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:42:11.410
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Avnet MiniZed V1 1234-oj1A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z007s (idcode 13723093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:42:11.420
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Avnet MiniZed V1 1234-oj1A" && level==0} -index 1], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:42:11.472
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Avnet MiniZed V1 1234-oj1A" && level==0} -index 1], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:42:11.482
+!MESSAGE XSCT Command: [fpga -file C:/LEDMATRIX_PROJECT/LEDMATRIX_VITIS/_ide/bitstream/design_1_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:42:12.706
+!MESSAGE XSCT command with result: [fpga -file C:/LEDMATRIX_PROJECT/LEDMATRIX_VITIS/_ide/bitstream/design_1_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:42:12.744
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-84: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:42:12.786
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-84: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:42:12.797
+!MESSAGE XSCT Command: [loadhw -hw C:/LEDMATRIX_PROJECT/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]], Thread: Worker-84: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:42:18.980
+!MESSAGE XSCT command with result: [loadhw -hw C:/LEDMATRIX_PROJECT/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]], Result: [null, design_1_wrapper_74]. Thread: Worker-84: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:42:18.989
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-84: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:42:19.001
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-84: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:42:19.013
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-84: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:42:19.044
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-84: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:42:19.055
+!MESSAGE XSCT Command: [source C:/LEDMATRIX_PROJECT/LEDMATRIX_VITIS/_ide/psinit/ps7_init.tcl], Thread: Worker-84: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:42:19.068
+!MESSAGE XSCT command with result: [source C:/LEDMATRIX_PROJECT/LEDMATRIX_VITIS/_ide/psinit/ps7_init.tcl], Result: [null, ]. Thread: Worker-84: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:42:19.078
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-84: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:42:19.640
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-84: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:42:19.650
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-84: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:42:19.674
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-84: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:42:19.683
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-84: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:42:19.714
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-84: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:42:19.728
+!MESSAGE XSCT Command: [dow C:/LEDMATRIX_PROJECT/LEDMATRIX_VITIS/Debug/LEDMATRIX_VITIS.elf], Thread: Worker-84: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:42:20.091
+!MESSAGE XSCT command with result: [dow C:/LEDMATRIX_PROJECT/LEDMATRIX_VITIS/Debug/LEDMATRIX_VITIS.elf], Result: [null, ]. Thread: Worker-84: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:42:20.102
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-84: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:42:20.139
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-84: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:42:20.237
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-84: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:42:20.344
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-84: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:42:20.354
+!MESSAGE XSCT Command: [con], Thread: Worker-84: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:42:20.411
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-84: Launching Debugger_LEDMATRIX_VITIS-Default
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-05-16 12:42:20.423
+!MESSAGE Tool usage for 'TCF_APP_DEBUG' updated to '76'
+
+!ENTRY org.eclipse.ui 4 4 2020-05-16 12:43:02.299
+!MESSAGE Conflicting handlers for com.xilinx.sdx.system.core.importSourcesCommand: {com.xilinx.sdx.system.core.handler.ImportSourcesHandler@7954400} vs {com.xilinx.sdx.system.core.handler.ImportSourcesHandler}
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:43:10.721
+!MESSAGE XSCT Command: [disconnect tcfchan#77], Thread: Thread-5372
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-05-16 12:43:10.779
+!MESSAGE XSCT command with result: [disconnect tcfchan#77], Result: [null, ]. Thread: Thread-5372
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-05-16 12:43:10.938
+!MESSAGE Executing command: cmd /C C:\Xilinx\Vitis\2019.2\bin\wbtcv.bat -mode batch -source vitis_webtalk.tcl
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-05-16 12:43:11.039
+!MESSAGE Executed Webtalk command

@@ -1,0 +1,85 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Tue May 19 10:33:29 2020
+| Host         : LAPTOP-1RN17QUT running 64-bit major release  (build 9200)
+| Command      : report_methodology -file design_1_wrapper_methodology_drc_routed.rpt -pb design_1_wrapper_methodology_drc_routed.pb -rpx design_1_wrapper_methodology_drc_routed.rpx
+| Design       : design_1_wrapper
+| Device       : xc7z007sclg225-1
+| Speed File   : -1
+| Design State : Fully Routed
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: checkpoint_design_1_wrapper
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 9
++-----------+------------------+--------------------------------------------------------------------+------------+
+| Rule      | Severity         | Description                                                        | Violations |
++-----------+------------------+--------------------------------------------------------------------+------------+
+| TIMING-2  | Critical Warning | Invalid primary clock source pin                                   | 1          |
+| TIMING-4  | Critical Warning | Invalid primary clock redefinition on a clock tree                 | 1          |
+| TIMING-6  | Critical Warning | No common primary clock between related clocks                     | 1          |
+| TIMING-7  | Critical Warning | No common node between related clocks                              | 1          |
+| TIMING-51 | Critical Warning | No common phase between related clocks from parallel MMCMs or PLLs | 1          |
+| TIMING-18 | Warning          | Missing input or output delay                                      | 4          |
++-----------+------------------+--------------------------------------------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+TIMING-2#1 Critical Warning
+Invalid primary clock source pin  
+A primary clock design_1_i/clk_wiz_0/inst/clk_in1 is created on an inappropriate pin design_1_i/clk_wiz_0/inst/clk_in1. It is recommended to create a primary clock only on a proper clock source (input port or primitive output pin with no timing arc)
+Related violations: <none>
+
+TIMING-4#1 Critical Warning
+Invalid primary clock redefinition on a clock tree  
+Invalid clock redefinition on a clock tree. The primary clock design_1_i/clk_wiz_0/inst/clk_in1 is defined downstream of clock clk_fpga_1 and overrides its insertion delay and/or waveform definition
+Related violations: <none>
+
+TIMING-6#1 Critical Warning
+No common primary clock between related clocks  
+The clocks clk_fpga_0 and clk_out1_design_1_clk_wiz_0_0 are related (timed together) but they have no common primary clock. The design could fail in hardware. To find a timing path between these clocks, run the following command: report_timing -from [get_clocks clk_fpga_0] -to [get_clocks clk_out1_design_1_clk_wiz_0_0]
+Related violations: <none>
+
+TIMING-7#1 Critical Warning
+No common node between related clocks  
+The clocks clk_fpga_0 and clk_out1_design_1_clk_wiz_0_0 are related (timed together) but they have no common node. The design could fail in hardware. To find a timing path between these clocks, run the following command: report_timing -from [get_clocks clk_fpga_0] -to [get_clocks clk_out1_design_1_clk_wiz_0_0]
+Related violations: <none>
+
+TIMING-51#1 Critical Warning
+No common phase between related clocks from parallel MMCMs or PLLs  
+The clocks clk_fpga_0 and clk_out1_design_1_clk_wiz_0_0 are timed together but have no phase relationship. The design could fail in hardware. The clocks originate from two parallel MMCMs or PLLs and at least one of the block's clock dividers is not set to 1. To be safely timed, all parallel MMCMs or PLLs must have the clock divider set to 1.
+Related violations: <none>
+
+TIMING-18#1 Warning
+Missing input or output delay  
+An input delay is missing on gpio_rtl_tri_i[0] relative to clock(s) clk_fpga_0
+Related violations: <none>
+
+TIMING-18#2 Warning
+Missing input or output delay  
+An input delay is missing on gpio_rtl_tri_i[1] relative to clock(s) clk_fpga_0
+Related violations: <none>
+
+TIMING-18#3 Warning
+Missing input or output delay  
+An input delay is missing on gpio_rtl_tri_i[2] relative to clock(s) clk_fpga_0
+Related violations: <none>
+
+TIMING-18#4 Warning
+Missing input or output delay  
+An input delay is missing on gpio_rtl_tri_i[3] relative to clock(s) clk_fpga_0
+Related violations: <none>
+
+
