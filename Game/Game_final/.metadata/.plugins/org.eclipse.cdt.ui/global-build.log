@@ -1,0 +1,10 @@
+19:01:20 **** Incremental Build of project Game_final ****
+buildplatform.bat 53265 Game_final no_domain_build 
+XSDB Server Channel: tcfchan#1
+19:01:37 **** Incremental Build of configuration Debug for project Game_final_app ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+' '
+make --no-print-directory main-build
+make[1]: Nothing to be done for 'main-build'.

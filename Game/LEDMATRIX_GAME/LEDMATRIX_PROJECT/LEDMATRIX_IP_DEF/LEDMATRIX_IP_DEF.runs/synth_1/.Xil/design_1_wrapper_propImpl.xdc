@@ -1,7 +1,0 @@
-set_property SRC_FILE_INFO {cfile:C:/LEDMATRIX_GAME/LEDMATRIX_PROJECT/LEDMATRIX_IP_DEF/LEDMATRIX_IP_DEF.srcs/constrs_1/new/constr.xdc rfile:../../../LEDMATRIX_IP_DEF.srcs/constrs_1/new/constr.xdc id:1} [current_design]
-set_property src_info {type:XDC file:1 line:1 export:INPUT save:INPUT read:READ} [current_design]
-set_property PACKAGE_PIN P14 [get_ports ds_0]
-set_property src_info {type:XDC file:1 line:2 export:INPUT save:INPUT read:READ} [current_design]
-set_property PACKAGE_PIN N11 [get_ports sh_cp_0]
-set_property src_info {type:XDC file:1 line:3 export:INPUT save:INPUT read:READ} [current_design]
-set_property PACKAGE_PIN N12 [get_ports st_cp_0]

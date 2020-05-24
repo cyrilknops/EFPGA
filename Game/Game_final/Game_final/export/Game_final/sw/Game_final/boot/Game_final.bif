@@ -1,0 +1,7 @@
+/*Game_final*/
+the_ROM_image:
+{
+  [bootloader]<Game_final/boot/fsbl.elf>
+   <bitstream> 
+  <elf,ps7_cortexa9_0>
+}

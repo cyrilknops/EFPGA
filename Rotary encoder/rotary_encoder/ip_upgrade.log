@@ -1,0 +1,27 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Sat May 23 22:44:11 2020
+| Host         : Kamer running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z007sclg225-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_my_rotary_en_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_1_my_rotary_en_0_0 (xilinx.com:user:my_rotary_en:1.0) from (Rev. 2) to (Rev. 3)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'design_1_my_rotary_en_0_0'. These changes may impact your design.
+
+
+-Upgrade has removed port 'cnt_o'
+
+
