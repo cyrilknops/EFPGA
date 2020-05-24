@@ -1,0 +1,10 @@
+2020-05-24T16:10:09.173048700255-16:10:09 **** Incremental Build of configuration Debug for project final_rotary_system ****
+000-make all 
+000-Generating bif file for the system project
+000-generate_system_bif.bat 52394 B:/eFPGA/design_1_wrapper_1/export/design_1_wrapper_1/design_1_wrapper_1.xpfm standalone_domain B:/eFPGA/final_rotary_system/Debug/system.bif
+000-sdcard_gen --xpfm B:/eFPGA/design_1_wrapper_1/export/design_1_wrapper_1/design_1_wrapper_1.xpfm --sys_config design_1_wrapper_1 --bif B:/eFPGA/final_rotary_system/Debug/system.bif --bitstream B:/eFPGA/final_rotary/_ide/bitstream/design_1_wrapper.bit --elf B:/eFPGA/final_rotary/Debug/final_rotary.elf,ps7_cortexa9_0
+000-ELF does not exist: B:/eFPGA/final_rotary/Debug/final_rotary.elf
+000/final_rotary_system/Debug0-1-1make: *** [makefile:37: sd_card] Error 12-make: *** [makefile:37: sd_card] Error 1
+00255-
+16:10:11 Build Finished (took 2s.157ms)
+
