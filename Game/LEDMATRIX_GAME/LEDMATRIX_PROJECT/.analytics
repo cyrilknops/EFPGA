@@ -1,8 +1,0 @@
-timestamp=[2020-05-14 20:09:03], mode=WORKBENCH_START, duration=0:00:12.495, duration_ms=12495, data={}
-timestamp=[2020-05-14 20:09:04], mode=WORKBENCH_UI_INIT, duration=0:00:01.147, duration_ms=1147, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
-timestamp=[2020-05-14 20:11:38], mode=APP_CREATION, duration=0:01:40.507, duration_ms=100507, data={name=LEDMATRIX_VITIS, project_type=sdk, os=standalone, processor=ps7_cortexa9, runtime=cpp, platform=design_1_wrapper, application_type=application}
-timestamp=[2020-05-14 20:16:18], mode=PLATFORM_GENERATION, duration=0:01:51.728, duration_ms=111728, data={name=design_1_wrapper}
-timestamp=[2020-05-15 07:25:09], mode=WORKBENCH_START, duration=0:00:25.652, duration_ms=25652, data={}
-timestamp=[2020-05-15 07:25:11], mode=WORKBENCH_UI_INIT, duration=0:00:02.474, duration_ms=2474, data={editors_count=5, platform_editors_count=2, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=LEDMATRIX_VITIS,LEDMATRIX_VITIS_system,RemoteSystemsTempFiles,design_1_wrapper}
-timestamp=[2020-05-16 09:30:01], mode=WORKBENCH_START, duration=0:00:27.256, duration_ms=27256, data={}
-timestamp=[2020-05-16 09:30:03], mode=WORKBENCH_UI_INIT, duration=0:00:02.272, duration_ms=2272, data={editors_count=5, platform_editors_count=2, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=LEDMATRIX_VITIS,LEDMATRIX_VITIS_system,RemoteSystemsTempFiles,design_1_wrapper}

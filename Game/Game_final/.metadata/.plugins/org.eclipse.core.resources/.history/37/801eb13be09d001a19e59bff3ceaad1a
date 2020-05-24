@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="Game_final_app" location="D:/School/FPGA/Gequoteerde_oef2/EFPGA/Game/Game_final/Game_final_app" platform="D:/School/FPGA/Gequoteerde_oef2/EFPGA/Game/Game_final/Game_final/export/Game_final/Game_final.xpfm" platformUID="xilinx:minized::0.0(custom)" systemProject="Game_final_app_system" sysConfig="Game_final" runtime="C/C++" cpu="standalone_domain" cpuInstance="ps7_cortexa9_0" os="standalone" mssSignature="2d453dbe69a599cbe9c205f53cdb7994">
+  <configuration name="Debug" id="xilinx.gnu.armv7.exe.debug.1351192675">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.armv7.exe.release.874348972" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="hello_world"/>
+</sdkproject:SdkProject>
