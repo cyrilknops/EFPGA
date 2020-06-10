@@ -9,3 +9,9 @@ This project is a assignment for our Embedded FPGA class.
 * Cyril Knops - Rotary encoder
 * Tom Mingneau - Matrix display
 * Ferre Claes - Game
+
+## Demo's
+* Matrix: https://www.youtube.com/watch?v=4zA8gQDPwEU&feature=youtu.be 
+* Rotary: https://www.youtube.com/watch?v=UECYmrDJRpc
+* Game: https://youtu.be/k1eJ8YBctAk
+
